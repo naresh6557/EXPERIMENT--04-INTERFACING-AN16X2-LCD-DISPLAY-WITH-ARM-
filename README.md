@@ -182,14 +182,14 @@ Lcd_PortType ports[] = { GPIOA, GPIOA, GPIOA, GPIOA };
     Lcd_HandleTypeDef lcd;
     lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
     Lcd_cursor(&lcd, 0,1);
-    Lcd_string(&lcd, "Abishek P");
+    Lcd_string(&lcd, "NARESH KUMAR R");
     Lcd_cursor(&lcd, 1,1);
-    Lcd_string(&lcd, "212224240002 ");
+    Lcd_string(&lcd, "212224040213");
 ```
 
 
 ## Output screen shots of proteus  :
- <img width="1317" height="952" alt="Screenshot 2026-02-14 101159" src="https://github.com/user-attachments/assets/0ab2ffec-a011-4895-b6eb-e400f68695b8" />
+<img width="1440" height="640" alt="image" src="https://github.com/user-attachments/assets/958541fe-5dad-434f-942f-0d4bf7c263cf" />
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
